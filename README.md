@@ -1,6 +1,6 @@
 # Aplicacion para buscar imagenes por una API 
 
-Puedes ver la aplicación en el siguiente [link](https://github.com/).
+Puedes ver la aplicación en el siguiente [link](https://kevin-cay.github.io/buscador-imagenes/).
 
 ## Como esta creado el proyecto
 
