@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Kevin-Cay/buscador-imagenes/static/css/main.165d89d4.chunk.css",
-    "main.js": "/Kevin-Cay/buscador-imagenes/static/js/main.43e16bf0.chunk.js",
-    "main.js.map": "/Kevin-Cay/buscador-imagenes/static/js/main.43e16bf0.chunk.js.map",
-    "runtime-main.js": "/Kevin-Cay/buscador-imagenes/static/js/runtime-main.1b1b75b7.js",
-    "runtime-main.js.map": "/Kevin-Cay/buscador-imagenes/static/js/runtime-main.1b1b75b7.js.map",
-    "static/js/2.5cab391b.chunk.js": "/Kevin-Cay/buscador-imagenes/static/js/2.5cab391b.chunk.js",
-    "static/js/2.5cab391b.chunk.js.map": "/Kevin-Cay/buscador-imagenes/static/js/2.5cab391b.chunk.js.map",
-    "static/js/3.00704a31.chunk.js": "/Kevin-Cay/buscador-imagenes/static/js/3.00704a31.chunk.js",
-    "static/js/3.00704a31.chunk.js.map": "/Kevin-Cay/buscador-imagenes/static/js/3.00704a31.chunk.js.map",
-    "index.html": "/Kevin-Cay/buscador-imagenes/index.html",
-    "static/css/main.165d89d4.chunk.css.map": "/Kevin-Cay/buscador-imagenes/static/css/main.165d89d4.chunk.css.map",
-    "static/js/2.5cab391b.chunk.js.LICENSE.txt": "/Kevin-Cay/buscador-imagenes/static/js/2.5cab391b.chunk.js.LICENSE.txt"
+    "main.css": "/Kevin-Cay/buscador-imagenes.git/static/css/main.165d89d4.chunk.css",
+    "main.js": "/Kevin-Cay/buscador-imagenes.git/static/js/main.43e16bf0.chunk.js",
+    "main.js.map": "/Kevin-Cay/buscador-imagenes.git/static/js/main.43e16bf0.chunk.js.map",
+    "runtime-main.js": "/Kevin-Cay/buscador-imagenes.git/static/js/runtime-main.04d874a1.js",
+    "runtime-main.js.map": "/Kevin-Cay/buscador-imagenes.git/static/js/runtime-main.04d874a1.js.map",
+    "static/js/2.5cab391b.chunk.js": "/Kevin-Cay/buscador-imagenes.git/static/js/2.5cab391b.chunk.js",
+    "static/js/2.5cab391b.chunk.js.map": "/Kevin-Cay/buscador-imagenes.git/static/js/2.5cab391b.chunk.js.map",
+    "static/js/3.00704a31.chunk.js": "/Kevin-Cay/buscador-imagenes.git/static/js/3.00704a31.chunk.js",
+    "static/js/3.00704a31.chunk.js.map": "/Kevin-Cay/buscador-imagenes.git/static/js/3.00704a31.chunk.js.map",
+    "index.html": "/Kevin-Cay/buscador-imagenes.git/index.html",
+    "static/css/main.165d89d4.chunk.css.map": "/Kevin-Cay/buscador-imagenes.git/static/css/main.165d89d4.chunk.css.map",
+    "static/js/2.5cab391b.chunk.js.LICENSE.txt": "/Kevin-Cay/buscador-imagenes.git/static/js/2.5cab391b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b1b75b7.js",
+    "static/js/runtime-main.04d874a1.js",
     "static/js/2.5cab391b.chunk.js",
     "static/css/main.165d89d4.chunk.css",
     "static/js/main.43e16bf0.chunk.js"
