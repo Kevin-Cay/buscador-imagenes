@@ -31,6 +31,10 @@ header input:hover {
     border: solid 1px rgb(160, 182, 255);
 }
 
+.restart {
+    cursor: pointer;
+}
+
 @media (max-width: 420px) {
     header {
         padding: 15px;
