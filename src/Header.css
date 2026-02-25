@@ -31,14 +31,40 @@ header input:hover {
     border: solid 1px rgb(160, 182, 255);
 }
 
+.title {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
 .restart {
     cursor: pointer;
+}
+
+.row {
+    display: flex;
+    gap: 5;
+    align-items: center;
+}
+
+.submit {
+    background: blue;
+    width: 120px;
+    padding: 5px;
+    height: auto;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
 }
 
 @media (max-width: 420px) {
     header {
         padding: 15px;
     }
+
     header input {
         border-radius: 7px;
         width: 75px;
@@ -46,6 +72,7 @@ header input:hover {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+
     select:focus,
     textarea:focus,
     input:focus {
