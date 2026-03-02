@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useFormik } from 'formik'
 import Collection from './Collection'
-import refresh from './refresh.svg'
+import refresh from './assets/refresh.svg'
 import './Header.css'
 import './Content.css'
 import './Article.css'
@@ -10,7 +10,7 @@ import { API_KEY } from './api/configs'
 function App() {
   const [photos, setPhotos] = useState([]);
   const [searched, setSearched] = useState(false)
-  const [ loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false)
   const open = url => window.open(url)
 
   const handleSearchImages = async (values) => {
@@ -25,9 +25,8 @@ function App() {
       const data = await response.json()
       setPhotos(data.results)
     } catch (error) {
-      console.log('error', error)
       setPhotos([])
-    } finally{
+    } finally {
       setLoading(false)
     }
   }
@@ -51,6 +50,8 @@ function App() {
 
   const handleReset = () => {
     setPhotos([])
+    setSearched(false)
+    formik.resetForm()
   }
 
   return (
@@ -61,13 +62,13 @@ function App() {
         </div>
         <form onSubmit={formik.handleSubmit}>
           <div className='row'>
-            <label className='title' >Search:</label>
             <input
               id='search'
               type="text"
               name='search'
               onChange={formik.handleChange}
               value={formik.values.search}
+              placeholder='Ingrese un texto'
             />
             <button className='submit' type='submit' >
               Buscar
@@ -76,11 +77,11 @@ function App() {
         </form>
 
         <div className='restart' >
-          <img onClick={handleReset} src={refresh} alt="" type="reset" />
+          <img onClick={handleReset} src={refresh} alt="refresh" type="reset" />
         </div>
       </header>
 
-      <Collection photos={photos} open={open} searched={searched} />
+      <Collection photos={photos} open={open} searched={searched} loading={loading} />
 
     </div>
   );
