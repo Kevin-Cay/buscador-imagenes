@@ -31,6 +31,32 @@ header input:hover {
     border: solid 1px rgb(160, 182, 255);
 }
 
+header button {
+    outline: none;
+    border: solid 1px #eee;
+    color: #eee;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: rgb(36, 92, 233);
+    cursor: pointer;
+    transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+header button:hover {
+    border: solid 1px rgb(58, 87, 182);
+    background-color: rgb(36, 92, 233);
+}
+
+header button:active {
+    background-color: rgb(36, 92, 233);
+    border: solid 1px rgb(120, 150, 255);
+}
+
+.submit {
+    margin-left: 10px;
+}
+
 .title {
     font-size: 16px;
     padding-right: 10px;
@@ -42,17 +68,8 @@ header input:hover {
 
 .row {
     display: flex;
-    gap: 5;
+    gap: 10;
     align-items: center;
-}
-
-.submit {
-    background: blue;
-    width: 120px;
-    padding: 5px;
-    height: auto;
-    border-radius: 7px;
-    color: #fff;
 }
 
 .logo {
